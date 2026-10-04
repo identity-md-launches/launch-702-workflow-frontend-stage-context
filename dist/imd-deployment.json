@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "launchId": "83f17459-20df-43c3-846b-7e4187fe21ab",
+  "chainId": 11155111,
+  "sourceCommit": "6c08b0fc122bc0e02016cf9c4f507e2dfaadfcc3",
+  "attestationHash": "d5fd1ac96fc29f8cb10d67a8d9f71866059c0d562506b86d983df3235d679e82",
+  "contracts": [
+    {
+      "name": "PriceFeed",
+      "address": "0x5bbfa44200ace481388b0b69355f7bd1feab0462",
+      "abiHash": "b3f63a98d5dcdf80da9c3b81c585097fe63015d1f6a2bee532fbb07193fac0d9",
+      "abiPath": "abi/PriceFeed.json"
+    },
+    {
+      "name": "NhiFeed",
+      "address": "0xd7c9a4604d9fbfe192232d7c4b7215efe0005bbb",
+      "abiHash": "b3f63a98d5dcdf80da9c3b81c585097fe63015d1f6a2bee532fbb07193fac0d9",
+      "abiPath": "abi/NhiFeed.json"
+    },
+    {
+      "name": "SpotFeed",
+      "address": "0x73bf2ebfc5bf181ac23799d2d79ac2b48f20284b",
+      "abiHash": "b3f63a98d5dcdf80da9c3b81c585097fe63015d1f6a2bee532fbb07193fac0d9",
+      "abiPath": "abi/SpotFeed.json"
+    },
+    {
+      "name": "ParameterizedVault",
+      "address": "0x850b0d7a6dd95be3e842c0ef14eefe0008f2c68f",
+      "abiHash": "a5f3eaf6d67447311eecf7ecd163a83e5af46a767f53b753ed6948b5a0479b30",
+      "abiPath": "abi/ParameterizedVault.json"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/CompToken.json",
+      "sha256": "7869d9b8f40d87adf222eec1064a580684687b29f458c3586848969c4d6a73ce"
+    },
+    {
+      "path": "abi/MockIMD.json",
+      "sha256": "758f70fecf7ba99b5bf801062ed9d7a3ddb44b53b9158c3c672e46fef2e1c883"
+    },
+    {
+      "path": "abi/MockWorkOracle.json",
+      "sha256": "63cbcec79b9f29fed669632a6783ebf44bca12abc6446ba18dc7dd4277ed8530"
+    },
+    {
+      "path": "abi/NhiFeed.json",
+      "sha256": "1a4b2e9b994e30ce2e801d7abe82bb31441d2d7ac15f4fd19143df5792daf445"
+    },
+    {
+      "path": "abi/ParameterizedVault.json",
+      "sha256": "8266f59a8d67b6c72a1767039569fd48d316d96e1309ac01f78b9f7a082c0f71"
+    },
+    {
+      "path": "abi/Parameters.json",
+      "sha256": "3cd9eebc8f40c78ceeb744db19c85eb6a455f548cc05d57f63290be4fc0c6bdd"
+    },
+    {
+      "path": "abi/PriceFeed.json",
+      "sha256": "1a4b2e9b994e30ce2e801d7abe82bb31441d2d7ac15f4fd19143df5792daf445"
+    },
+    {
+      "path": "abi/SpotFeed.json",
+      "sha256": "1a4b2e9b994e30ce2e801d7abe82bb31441d2d7ac15f4fd19143df5792daf445"
+    },
+    {
+      "path": "abi/SwarmWorkOracle.json",
+      "sha256": "c0e492481b5d96b035339a4303f11e6e36ef205d6fbd3716181c01b45082823c"
+    },
+    {
+      "path": "abi/Treasury.json",
+      "sha256": "f00e7286747fd4cae481366cfe52b8967a33f152eb5792f68c8a3d0c2afd697f"
+    },
+    {
+      "path": "abi/UsdPriceFeed.json",
+      "sha256": "215b9da61b279e25ba63751208bf82abaf6bf153bcbf2cf488985f025cd1efda"
+    },
+    {
+      "path": "assets/ccip-BW1WPIcD.js",
+      "sha256": "d93ba99adcd8ca201656a9fa00fbf8a13935a52de3c4d667c4fcea04a02863b6"
+    },
+    {
+      "path": "assets/index-B9-S5BLs.css",
+      "sha256": "64e6efe780f3dfb0167efc7be7eef645348e5470d1da75b19f89b35dfae44b62"
+    },
+    {
+      "path": "assets/index-NLtd0N3_.js",
+      "sha256": "1d33690afc8ab439590bd8ff768373c72bc3f1ffc558be894d1f466c363e0b78"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "dd553da2414ddef2f2e29ee4f91361e53e254833e88ffc917986c48d690af28c"
+    },
+    {
+      "path": "index.html",
+      "sha256": "8a93f457feac3dab5114c8ca3ff56acfdd95861da7a7d1ab6ed1008b3f86110d"
+    }
+  ]
+}

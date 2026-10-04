@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-04T19:32:33.738Z",
+  "url": "local /preview/ subpath",
+  "browser": "153.0.8010.12",
+  "mode": "mocked RPC and wallet; no broadcasts",
+  "results": [
+    {
+      "name": "Missing wallet explanation and disconnected transaction gates",
+      "status": "passed"
+    },
+    {
+      "name": "Connect rejection recovery, wrong chain and exact add-chain fallback",
+      "status": "passed"
+    },
+    {
+      "name": "Reserve-only quote includes net output, fee, source and minimum",
+      "status": "passed"
+    },
+    {
+      "name": "Size comparison reads on-chain fees for 1%, 5%, 10% supply",
+      "status": "passed",
+      "detail": [
+        "0.75%",
+        "1.75%",
+        "3%"
+      ]
+    },
+    {
+      "name": "Changing an input invalidates a quote",
+      "status": "passed"
+    },
+    {
+      "name": "Mixed quote requires a candidate and uses a transaction review",
+      "status": "passed"
+    },
+    {
+      "name": "Position-only route",
+      "status": "passed"
+    },
+    {
+      "name": "Candidate at derived ceiling is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Full redemption simulation translates backing guard revert",
+      "status": "passed"
+    },
+    {
+      "name": "Stale feeds disable price-sensitive actions",
+      "status": "passed"
+    },
+    {
+      "name": "Attested oracle task tally, age, per-task rate, earned/consumed/remaining rights",
+      "status": "passed"
+    },
+    {
+      "name": "Exact approval, rejected signing retry, receipt wait and refreshed allowance",
+      "status": "passed"
+    },
+    {
+      "name": "Position, work mint, keeper, backing, governance and oracle controls simulate their intended calls",
+      "status": "passed"
+    },
+    {
+      "name": "Redemption signing request carries exact burn amount, nonzero minimum and candidate; mocked receipt confirms",
+      "status": "passed"
+    },
+    {
+      "name": "One viewport, only panes scroll; all mobile panes reachable",
+      "status": "passed",
+      "detail": [
+        {
+          "w": 1440,
+          "h": 900,
+          "sw": 1440,
+          "sh": 900,
+          "bw": 1440,
+          "bh": 900
+        },
+        {
+          "w": 1280,
+          "h": 800,
+          "sw": 1280,
+          "sh": 800,
+          "bw": 1280,
+          "bh": 800
+        },
+        {
+          "w": 900,
+          "h": 900,
+          "sw": 900,
+          "sh": 900,
+          "bw": 900,
+          "bh": 900
+        },
+        {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "bw": 390,
+          "bh": 844
+        },
+        {
+          "w": 320,
+          "h": 740,
+          "sw": 320,
+          "sh": 740,
+          "bw": 320,
+          "bh": 740
+        }
+      ]
+    },
+    {
+      "name": "Axe scan: no automated WCAG A/AA violations on desktop and 320px redemption",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard tab progression and visible focus CSS",
+      "status": "passed",
+      "detail": {
+        "tag": "INPUT",
+        "name": "redemption-slippage",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "Reduced motion disables transitions",
+      "status": "passed"
+    },
+    {
+      "name": "Computed rendered token contrast",
+      "status": "passed",
+      "detail": {
+        "tokens": {
+          "--bg": "#111",
+          "--surface": "#161616",
+          "--text": "#eee",
+          "--muted": "#a8a8a8",
+          "--control": "#777"
+        },
+        "body": 15.597083882512038,
+        "secondary": 7.610275392134098,
+        "inputBorder": 4.216767253166575
+      }
+    },
+    {
+      "name": "Keyboard-only redemption quote/review, Escape cancellation and focus return",
+      "status": "passed"
+    },
+    {
+      "name": "RPC failure disables transactions and refresh recovers",
+      "status": "passed"
+    },
+    {
+      "name": "Missing deployed code fails closed",
+      "status": "passed"
+    },
+    {
+      "name": "Runtime ABI integrity failure blocks the terminal; corrected asset can be retried",
+      "status": "passed"
+    },
+    {
+      "name": "No browser console errors or uncaught exceptions in mocked workflows",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

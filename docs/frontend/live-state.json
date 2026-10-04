@@ -1,0 +1,24 @@
+{
+  "observedAt": "2026-10-04T19:26:21.169Z",
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "blockNumber": "11844083",
+  "method": "Read-only eth_call at one explicit block; encoding and decoding with exported implementation ABIs. Run node web/scripts/live-state.mjs to observe a new block.",
+  "data": {
+    "oracle": "0x4fC87A6220C063e3C775c0B4ffecAC8386a5fDe5",
+    "usdPriceFeed": "0xE8793DFE278aa743D0F11E5D3f4c9E92Bc75281f",
+    "parameters": "0xD9B02Abb50fa08c1A7128E691F9386c487026a8E",
+    "redemptionReserve": "0",
+    "minCR": "200",
+    "redemptionCeilingCR": "250",
+    "redemptionFeeBps": "50",
+    "REDEMPTION_FEE_FLOOR_BPS": "50",
+    "REDEMPTION_FEE_CAP_BPS": "500",
+    "MockWorkOracle.deployer": "0x5167D014a056E43883e1BBEa5530c3c0dC993281",
+    "UsdPriceFeed.latestValue": [
+      "0",
+      "0"
+    ],
+    "UsdPriceFeed.isStale": true,
+    "Parameters.compPerTaskWad": "10000000000000000"
+  }
+}

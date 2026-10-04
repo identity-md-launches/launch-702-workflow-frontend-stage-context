@@ -1,0 +1,85 @@
+{
+  "observedAt": "2026-10-04T19:22:52.548Z",
+  "sourceCommit": "6c08b0fc122bc0e02016cf9c4f507e2dfaadfcc3",
+  "method": "eth_chainId and eth_getCode(address, latest), curl JSON-RPC batch to each configured public endpoint. Read only; no wallet used.",
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "PriceFeed",
+          "address": "0x5bbfa44200ace481388b0b69355f7bd1feab0462",
+          "codeBytes": 8243
+        },
+        {
+          "name": "NhiFeed",
+          "address": "0xd7c9a4604d9fbfe192232d7c4b7215efe0005bbb",
+          "codeBytes": 8464
+        },
+        {
+          "name": "SpotFeed",
+          "address": "0x73bf2ebfc5bf181ac23799d2d79ac2b48f20284b",
+          "codeBytes": 8131
+        },
+        {
+          "name": "ParameterizedVault",
+          "address": "0x850b0d7a6dd95be3e842c0ef14eefe0008f2c68f",
+          "codeBytes": 16968
+        }
+      ]
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "PriceFeed",
+          "address": "0x5bbfa44200ace481388b0b69355f7bd1feab0462",
+          "codeBytes": 8243
+        },
+        {
+          "name": "NhiFeed",
+          "address": "0xd7c9a4604d9fbfe192232d7c4b7215efe0005bbb",
+          "codeBytes": 8464
+        },
+        {
+          "name": "SpotFeed",
+          "address": "0x73bf2ebfc5bf181ac23799d2d79ac2b48f20284b",
+          "codeBytes": 8131
+        },
+        {
+          "name": "ParameterizedVault",
+          "address": "0x850b0d7a6dd95be3e842c0ef14eefe0008f2c68f",
+          "codeBytes": 16968
+        }
+      ]
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "PriceFeed",
+          "address": "0x5bbfa44200ace481388b0b69355f7bd1feab0462",
+          "codeBytes": 8243
+        },
+        {
+          "name": "NhiFeed",
+          "address": "0xd7c9a4604d9fbfe192232d7c4b7215efe0005bbb",
+          "codeBytes": 8464
+        },
+        {
+          "name": "SpotFeed",
+          "address": "0x73bf2ebfc5bf181ac23799d2d79ac2b48f20284b",
+          "codeBytes": 8131
+        },
+        {
+          "name": "ParameterizedVault",
+          "address": "0x850b0d7a6dd95be3e842c0ef14eefe0008f2c68f",
+          "codeBytes": 16968
+        }
+      ]
+    }
+  ]
+}

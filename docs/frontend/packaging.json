@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-04T19:37:00.002581+00:00",
+  "limitBytes": 8388608,
+  "scopeCheck": "Only web/**, web/.gitignore, dist/** and docs/** created/modified; no node_modules, caches, archives or submodules in submitted paths.",
+  "workspaceCommit": "Blocked: .git/index.lock is read-only. Scratch commits are measurement-only.",
+  "baseCommit": "6c08b0fc122bc0e02016cf9c4f507e2dfaadfcc3",
+  "measuredTree": "e6513547702d9d029976067c830011b058efa421",
+  "incrementalGitBundleBytes": 946771,
+  "completeTreeGitBundleBytes": 1420918,
+  "measurementNote": "These measurements cover all deliverable files before this small packaging metadata file. The complete-tree bundle has no inherited history; the incremental bundle requires the pinned base commit. A final inclusive scratch bundle is checked separately against the same limit. No bundle is delivered as a redundant artifact.",
+  "exportFiles": 17,
+  "exportAssetsExcludingManifest": 16,
+  "exportBytes": 685779,
+  "largestExportFileBytes": 550020
+}
